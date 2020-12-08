@@ -22,9 +22,18 @@ $(document).ready(function(){
     }
 
     $("#congresos li").on('click', function(){
-      var mensaje =  $(this).attr('title');
-      alert(mensaje);
+      var text1 =  $(this).attr('alt');
+      var text2 =  $(this).attr('title');
+      document.getElementById("details1").innerHTML = text1;
+      document.getElementById("details2").innerHTML = text2;
+      $('#details').removeClass('close');
+      $('#details').addClass('mostrar');
     })
-   
+
+    $('#details button').on('click',function(){
+      $('#details').addClass('close');
+    })
+
+
 })
 
