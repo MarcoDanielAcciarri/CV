@@ -167,6 +167,9 @@ nav ul li a:hover{
     border: white solid 3px;
     box-shadow: rgba(0, 0, 0, .2) 10px 20px 20px;
 }
+.image-border {
+    border: rgba(0, 0, 0, .1) solid 1.5px;
+}
 .video {
     width: 360px;
     height: 315px;
@@ -298,8 +301,10 @@ h5, .bolder, .bolder2 {
     width: 74%;
 }
 #congresos li:hover {
-    background: rgba(255, 255, 255, .3);
-    border: rgba(255, 255, 255, .8) solid 1px;
+    /*background: rgba(255, 255, 255, .3);
+    border: rgba(255, 255, 255, .8) solid 1px;*/
+    background: rgba(0, 0, 0, .1);
+    border: rgba(0, 0, 0, .4) solid 1px;
     border-radius: 3px;
 
 }
@@ -317,8 +322,9 @@ h5, .bolder, .bolder2 {
     align-items: center;
     flex-wrap: wrap;
 }
-#page1 {
-    background: rgb(192, 192, 192) ;
+#page1, #page4, #page7 {
+    /*background: rgb(192, 192, 192) ;*/
+    background: rgb(241, 240, 240) ;
 }
 #page2 {
     background: rgb(75, 75, 75) ;
@@ -326,17 +332,11 @@ h5, .bolder, .bolder2 {
 #page3 {
     background:  rgb(16, 40, 77) ;
 }
-#page4 {
-    background: rgb(192, 192, 192) ;
-}
 #page5 {
     background: rgb(75, 75, 75) ;
 }
 #page6 {
     background:  rgb(16, 40, 77) ;
-}
-#page7 {
-    background: rgb(192, 192, 192) ;
 }
 
 /* window details  */
