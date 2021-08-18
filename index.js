@@ -5,6 +5,14 @@ $(document).ready(function(){
         var target = $(this).attr('href');
         $(target).animate({paddingTop: '8rem'},1000);
     });
+    $("#data a").on('click', function(){
+      var target = $(this).attr('href');
+      $(target).animate({paddingTop: '8rem'},1000);
+    });
+    $("#icons a").on('click', function(){
+      var target = $(this).attr('href');
+      $(target).animate({paddingTop: '8rem'},1000);
+    });
     // Fin Efecto Rebote
 
     $('.toggle-menu').on('click', function(){

@@ -30,11 +30,9 @@ a {
     align-items: center;
     flex-wrap: wrap;
 }
-#top {
-    display: flex;
-    align-items: flex-start;
-    justify-content: space-around;
-    flex-wrap: wrap;
+h1 {
+    color: transparent;
+    font-size: 0;
 }
 #left {
     width: 40%;
@@ -46,6 +44,7 @@ a {
     display: flex;
     flex-direction: column;
     align-items: flex-end;
+    margin-top: 1rem;
 }
 #language a {
     color: white;
@@ -71,10 +70,13 @@ a {
     justify-content: space-around;
     box-shadow: rgba(0, 0, 0, .25) 10px 20px 20px;
 }
-#title h1 {
+#title h2 {
     font-size: 3rem;
     padding-bottom: .5rem;
     border-bottom: white solid 2.5px;
+}
+h3 {
+    font-size: 2rem;
 }
 #image {
     width: 30%;
@@ -98,10 +100,10 @@ a {
     #image {
         width: 40%;
     }
-    #title h1 {
+    #title h2 {
         font-size: 2rem;
     }
-    #title h2 {
+    #title h3 {
         font-size: 1.3rem;
     }
 }
